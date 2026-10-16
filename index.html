@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Acessórios, brinquedos e produtos especiais para seu melhor amigo.">
+    <link href="src/output.css" rel="stylesheet">
+    <title>Pet&Style | Tudo para seu pet</title>
+</head>
+
+    <body class="bg-pet-cream text-pet-dark">
+
+        <!-- HEADER -->
+        <header class="bg-white shadow-sm sticky top-0 z-50">
+            <nav class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+                <a href="#home" class="text-2xl font-extrabold text-pet-green">
+                    Pet<span class="text-pet-orange">&</span>Style
+                </a>
+
+                <button id="menuButton" class="md:hidden text-2xl" aria-label="Abrir menu" aria-expanded="false">
+                    ☰
+                </button>
+
+                <ul id="menu"
+                    class="hidden md:flex flex-col md:flex-row gap-6 absolute md:static top-full left-0 w-full md:w-auto bg-white p-6 md:p-0 shadow-md md:shadow-none">
+                    <li><a href="#home" class="hover:text-pet-green">Início</a></li>
+                    <li><a href="#produtos" class="hover:text-pet-green">Produtos</a></li>
+                    <li><a href="#depoimentos" class="hover:text-pet-green">Depoimentos</a></li>
+                    <li><a href="#contato" class="hover:text-pet-green">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <!-- HERO -->
+            <section id="home" class="max-w-7xl mx-auto px-6 py-16 md:py-24">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+
+                    <div>
+                        <span
+                            class="inline-block bg-pet-light text-pet-dark px-4 py-2 rounded-full text-sm font-semibold mb-6">
+                            🐾 Amor em cada detalhe
+                        </span>
+
+                        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-6">
+                            Seu pet merece
+                            <span class="text-pet-green">o melhor estilo.</span>
+                        </h1>
+
+                        <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                            Acessórios, brinquedos e muito carinho para deixar
+                            a vida do seu melhor amigo ainda mais feliz.
+                        </p>
+
+                        <a href="#produtos"
+                            class="inline-block bg-pet-green hover:bg-pet-dark text-white px-8 py-4 rounded-full font-bold transition">
+                            Explorar produtos →
+                        </a>
+                    </div>
+
+                    <div>
+                        <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=1000&q=85"
+                            alt="Cachorro feliz" class="w-full h-80 md:h-[450px] object-cover rounded-3xl shadow-lg">
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- PRODUTOS -->
+            <section id="produtos" class="bg-white py-16 md:py-20">
+                <div class="max-w-7xl mx-auto px-6">
+
+                    <div class="text-center mb-12">
+                        <p class="text-pet-green font-bold uppercase tracking-widest text-sm mb-3">
+                            Nossa seleção
+                        </p>
+                        <h2 class="text-3xl md:text-4xl font-extrabold">
+                            Produtos para seu pet
+                        </h2>
+                        <p class="text-gray-500 mt-3">
+                            Tudo para cuidar, brincar e passear.
+                        </p>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                        <!-- PRODUTO 1 -->
+                        <article class="bg-pet-cream rounded-2xl overflow-hidden hover:shadow-lg transition">
+                            <img src="https://images.unsplash.com/photo-1601758228041-f3b2795255f1?auto=format&fit=crop&w=600&q=80"
+                                alt="Brinquedo para cachorro" class="w-full h-52 object-cover">
+
+                            <div class="p-5">
+                                <p class="text-sm text-pet-green font-semibold">Diversão</p>
+                                <h3 class="text-lg font-bold mt-2">Brinquedo Pet</h3>
+                                <p class="text-xl font-extrabold mt-3">R$ 39,90</p>
+                                <a href="#contato"
+                                    class="block text-center mt-4 bg-pet-green text-white py-3 rounded-xl hover:bg-pet-dark transition">
+                                    Tenho interesse
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- PRODUTO 2 -->
+                        <article class="bg-pet-cream rounded-2xl overflow-hidden hover:shadow-lg transition">
+                            <img src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&w=600&q=80"
+                                alt="Cachorro usando acessório" class="w-full h-52 object-cover">
+
+                            <div class="p-5">
+                                <p class="text-sm text-pet-green font-semibold">Passeio</p>
+                                <h3 class="text-lg font-bold mt-2">Coleira Premium</h3>
+                                <p class="text-xl font-extrabold mt-3">R$ 49,90</p>
+                                <a href="#contato"
+                                    class="block text-center mt-4 bg-pet-green text-white py-3 rounded-xl hover:bg-pet-dark transition">
+                                    Tenho interesse
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- PRODUTO 3 -->
+                        <article class="bg-pet-cream rounded-2xl overflow-hidden hover:shadow-lg transition">
+                            <img src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?auto=format&fit=crop&w=600&q=80"
+                                alt="Pet descansando" class="w-full h-52 object-cover">
+
+                            <div class="p-5">
+                                <p class="text-sm text-pet-green font-semibold">Conforto</p>
+                                <h3 class="text-lg font-bold mt-2">Caminha Pet</h3>
+                                <p class="text-xl font-extrabold mt-3">R$ 89,90</p>
+                                <a href="#contato"
+                                    class="block text-center mt-4 bg-pet-green text-white py-3 rounded-xl hover:bg-pet-dark transition">
+                                    Tenho interesse
+                                </a>
+                            </div>
+                        </article>
+
+                        <!-- PRODUTO 4 -->
+                        <article class="bg-pet-cream rounded-2xl overflow-hidden hover:shadow-lg transition">
+                            <img src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?auto=format&fit=crop&w=600&q=80"
+                                alt="Acessórios e cuidados para pets" class="w-full h-52 object-cover">
+
+                            <div class="p-5">
+                                <p class="text-sm text-pet-green font-semibold">Cuidados</p>
+                                <h3 class="text-lg font-bold mt-2">Kit de Cuidados</h3>
+                                <p class="text-xl font-extrabold mt-3">R$ 59,90</p>
+                                <a href="#contato"
+                                    class="block text-center mt-4 bg-pet-green text-white py-3 rounded-xl hover:bg-pet-dark transition">
+                                    Tenho interesse
+                                </a>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- DEPOIMENTOS -->
+            <section id="depoimentos" class="py-16 md:py-20">
+                <div class="max-w-4xl mx-auto px-6 text-center">
+
+                    <p class="text-pet-green font-bold uppercase tracking-widest text-sm mb-3">
+                        Quem ama, recomenda
+                    </p>
+
+                    <h2 class="text-3xl md:text-4xl font-extrabold mb-10">
+                        Histórias de quem confia
+                    </h2>
+
+                    <div class="bg-white rounded-3xl shadow-sm p-8 md:p-12">
+
+                        <p id="textoDepoimento" class="text-lg md:text-xl text-gray-600 leading-relaxed">
+                            “Encontrei acessórios lindos para meu cachorro.
+                            A qualidade e o cuidado me surpreenderam!”
+                        </p>
+
+                        <p id="nomeDepoimento" class="font-bold mt-6">
+                            Mariana Costa
+                        </p>
+
+                        <p class="text-pet-orange mt-2">★★★★★</p>
+
+                        <div class="flex justify-center gap-4 mt-8">
+                            <button id="anterior"
+                                class="border border-pet-green text-pet-green px-5 py-2 rounded-full hover:bg-pet-light"
+                                aria-label="Depoimento anterior">
+                                ←
+                            </button>
+
+                            <button id="proximo"
+                                class="bg-pet-green text-white px-5 py-2 rounded-full hover:bg-pet-dark"
+                                aria-label="Próximo depoimento">
+                                →
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- CONTATO -->
+            <section id="contato" class="bg-pet-dark text-white py-16 md:py-20">
+                <div class="max-w-3xl mx-auto px-6">
+
+                    <div class="text-center mb-10">
+                        <p class="text-pet-light font-bold uppercase tracking-widest text-sm mb-3">
+                            Fale com a gente
+                        </p>
+                        <h2 class="text-3xl md:text-4xl font-extrabold">
+                            Entre em contato
+                        </h2>
+                        <p class="text-gray-300 mt-4">
+                            Dúvidas ou sugestões? Envie sua mensagem.
+                        </p>
+                    </div>
+
+                    <form id="formContato" class="bg-white text-pet-dark p-6 md:p-8 rounded-2xl">
+
+                        <div class="mb-5">
+                            <label for="nome" class="block font-semibold mb-2">
+                                Nome
+                            </label>
+                            <input type="text" id="nome" name="nome" required
+                                class="w-full border border-gray-300 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-pet-green">
+                        </div>
+
+                        <div class="mb-5">
+                            <label for="email" class="block font-semibold mb-2">
+                                E-mail
+                            </label>
+                            <input type="email" id="email" name="email" required
+                                class="w-full border border-gray-300 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-pet-green">
+                        </div>
+
+                        <div class="mb-5">
+                            <label for="mensagem" class="block font-semibold mb-2">
+                                Mensagem
+                            </label>
+                            <textarea id="mensagem" name="mensagem" rows="4" required
+                                class="w-full border border-gray-300 rounded-xl p-3 focus:outline-none focus:ring-2 focus:ring-pet-green"></textarea>
+                        </div>
+
+                        <button type="submit"
+                            class="w-full bg-pet-green hover:bg-pet-dark text-white font-bold p-4 rounded-xl transition">
+                            Enviar mensagem
+                        </button>
+
+                        <p id="feedbackContato" role="status" aria-live="polite" class="mt-4 text-sm text-pet-green">
+                        </p>
+
+                    </form>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="bg-white py-6">
+            <div
+                class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-3 text-center">
+                <a href="#home" class="text-xl font-extrabold text-pet-green">
+                    Pet<span class="text-pet-orange">&</span>Style
+                </a>
+
+                <p class="text-gray-500 text-sm">
+                    © 2026 Pet&Style. Todos os direitos reservados.
+                </p>
+
+                <a href="#home" class="text-pet-green font-semibold text-sm">
+                    Voltar ao topo ↑
+                </a>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT -->
+        <script>
+            // MENU MOBILE
+            const menuButton = document.getElementById("menuButton");
+            const menu = document.getElementById("menu");
+
+            menuButton.addEventListener("click", () => {
+                const aberto = !menu.classList.contains("hidden");
+
+                menu.classList.toggle("hidden");
+                menuButton.setAttribute("aria-expanded", String(!aberto));
+            });
+
+            menu.querySelectorAll("a").forEach(link => {
+                link.addEventListener("click", () => {
+                    if (window.innerWidth < 768) {
+                        menu.classList.add("hidden");
+                        menuButton.setAttribute("aria-expanded", "false");
+                    }
+                });
+            });
+
+            // CARROSSEL DE DEPOIMENTOS
+            const depoimentos = [
+                {
+                    texto: "“Encontrei acessórios lindos para meu cachorro. A qualidade e o cuidado me surpreenderam!”",
+                    nome: "Mariana Costa"
+                },
+                {
+                    texto: "“Os brinquedos fizeram o maior sucesso aqui em casa. A loja tem opções lindas para os nossos pets!”",
+                    nome: "Rafael Mendes"
+                },
+                {
+                    texto: "“Adorei a experiência! Encontrei tudo o que precisava para minha gatinha em um só lugar.”",
+                    nome: "Camila Oliveira"
+                }
+            ];
+
+            let indiceAtual = 0;
+
+            function mostrarDepoimento(indice) {
+                indiceAtual = (indice + depoimentos.length) % depoimentos.length;
+
+                document.getElementById("textoDepoimento").textContent =
+                    depoimentos[indiceAtual].texto;
+
+                document.getElementById("nomeDepoimento").textContent =
+                    depoimentos[indiceAtual].nome;
+            }
+
+            document.getElementById("anterior").addEventListener("click", () => {
+                mostrarDepoimento(indiceAtual - 1);
+            });
+
+            document.getElementById("proximo").addEventListener("click", () => {
+                mostrarDepoimento(indiceAtual + 1);
+            });
+
+            // FORMULÁRIO DE CONTATO
+            document.getElementById("formContato").addEventListener("submit", event => {
+                event.preventDefault();
+
+                document.getElementById("feedbackContato").textContent =
+                    "Mensagem validada! Para receber mensagens de verdade, conecte um serviço de envio.";
+
+                event.target.reset();
+            });
+        </script>
+<style>
+    /* DEPOIMENTOS */
+    #depoimentos {
+        background-color: #e5e7eb;
+        color: #17231f;
+    }
+
+    #depoimentos h2 {
+        color: #17231f;
+    }
+
+    #depoimentos .bg-white {
+        background-color: #ffffff;
+        border: 1px solid #cbd5d1;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    #textoDepoimento {
+        color: #374151;
+        font-weight: 500;
+    }
+
+    #nomeDepoimento {
+        color: #263832;
+        font-size: 1.1rem;
+    }
+
+    /* CONTATO */
+    #contato {
+        background-color: #17231f;
+        color: #ffffff;
+    }
+
+    #contato h2 {
+        color: #ffffff;
+    }
+
+    #contato p {
+        color: #e5e7eb;
+    }
+
+    #formContato {
+        background-color: #ffffff;
+        color: #17231f;
+        border: 1px solid #d1d5db;
+    }
+
+    #formContato label {
+        color: #17231f;
+        font-weight: 700;
+    }
+
+    #formContato input,
+    #formContato textarea {
+        background-color: #f9fafb;
+        color: #111827;
+        border: 1px solid #9ca3af;
+    }
+
+    #formContato input::placeholder,
+    #formContato textarea::placeholder {
+        color: #6b7280;
+    }
+
+    #formContato input:focus,
+    #formContato textarea:focus {
+        outline: 2px solid #52796f;
+        outline-offset: 1px;
+    }
+
+    #feedbackContato {
+        color: #263832;
+    }
+</style>
+
+    </body>
+
+</html>

@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme {
+    --color-pet-green: #52796F;
+    --color-pet-light: #CADBD2;
+    --color-pet-cream: #FAF7F0;
+    --color-pet-orange: #E9A66B;
+    --color-pet-dark: #263832;
+}
